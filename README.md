@@ -57,9 +57,9 @@ Ensure MongoDB is running on mongodb://localhost:27017/taskboard
 
 4. Start the server:
 
-# for bash
+### for bash
 node server.js
-# or if using nodemon:
+### or if using nodemon:
 npm run dev
 
 5. Open index.html in your browser.

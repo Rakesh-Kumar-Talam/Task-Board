@@ -1,15 +1,20 @@
 {
   "name": "taskboard-project",
   "version": "1.0.0",
-  "description": "A task management application with proper MVC architecture",
+  "description": "A professional task management application with modern UI and MVC architecture",
   "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
+    "build": "echo 'No build step required for this project'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["task", "management", "mvc", "express", "mongodb"],
-  "author": "",
+  "keywords": ["task", "management", "mvc", "express", "mongodb", "professional", "ui", "atlas"],
+  "author": "Rakesh Kumar Talam",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
@@ -18,5 +23,10 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/taskboard-project.git"
+  },
+  "homepage": "https://your-app-name.onrender.com"
 }
